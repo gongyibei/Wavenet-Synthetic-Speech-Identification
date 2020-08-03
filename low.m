@@ -1,7 +1,7 @@
 
-maindir = 'E:\GYK\google_tts\TIMIT_wavnet_split';
+maindir = '.\google_tts\TIMIT_wavnet_split';
 waves  = dir( maindir );
-outdir = 'E:\GYK\google_tts\TIMIT_wavnet_split_low2';
+outdir = '.\google_tts\TIMIT_wavnet_split_low2';
 
 
 % [data1 , fs] = audioread('E:\GYK\google_tts\TIMIT_split_1s\1_2.wav');
